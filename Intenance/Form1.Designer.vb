@@ -31,6 +31,8 @@ Partial Class SplashWindow
         '
         'SplashProgressBar
         '
+        Me.SplashProgressBar.BackColor = System.Drawing.Color.Orange
+        Me.SplashProgressBar.ForeColor = System.Drawing.Color.Gold
         Me.SplashProgressBar.Location = New System.Drawing.Point(12, 338)
         Me.SplashProgressBar.Name = "SplashProgressBar"
         Me.SplashProgressBar.Size = New System.Drawing.Size(501, 10)
