@@ -33,9 +33,10 @@ Partial Class SplashWindow
         '
         Me.SplashProgressBar.BackColor = System.Drawing.Color.Orange
         Me.SplashProgressBar.ForeColor = System.Drawing.Color.Gold
-        Me.SplashProgressBar.Location = New System.Drawing.Point(12, 338)
+        Me.SplashProgressBar.Location = New System.Drawing.Point(12, 340)
         Me.SplashProgressBar.Name = "SplashProgressBar"
-        Me.SplashProgressBar.Size = New System.Drawing.Size(501, 10)
+        Me.SplashProgressBar.Size = New System.Drawing.Size(501, 8)
+        Me.SplashProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.SplashProgressBar.TabIndex = 0
         '
         'SplashLabel
@@ -44,7 +45,7 @@ Partial Class SplashWindow
         Me.SplashLabel.BackColor = System.Drawing.Color.Transparent
         Me.SplashLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SplashLabel.ForeColor = System.Drawing.Color.Gold
-        Me.SplashLabel.Location = New System.Drawing.Point(12, 284)
+        Me.SplashLabel.Location = New System.Drawing.Point(12, 286)
         Me.SplashLabel.Name = "SplashLabel"
         Me.SplashLabel.Size = New System.Drawing.Size(167, 51)
         Me.SplashLabel.TabIndex = 1
